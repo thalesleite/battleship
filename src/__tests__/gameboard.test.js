@@ -1,5 +1,5 @@
-import Gameboard from "../gameboard"
-import Ship from "../ship"
+import Gameboard from "../gameboard.js"
+import Ship from "../ship.js"
 
 describe("Gameboard Class", () => {
   it("Check if the class is called", () => {

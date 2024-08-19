@@ -1,0 +1,14 @@
+.board {
+  display: grid;
+  grid-template-columns: repeat(15, 20px);
+  gap: 2px;
+}
+.cell {
+  width: 20px;
+  height: 20px;
+  background-color: lightblue;
+  border: 1px solid black;
+}
+.cell.ship {
+  background-color: gray;
+}

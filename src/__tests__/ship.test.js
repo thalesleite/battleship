@@ -1,4 +1,4 @@
-import Ship from "../ship"
+import Ship from "../ship.js"
 
 describe("Ship Class", () => {
   it("Check if the class is called", () => {

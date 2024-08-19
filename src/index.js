@@ -1,4 +1,4 @@
-import Gameboard from "./gameboard.js"
+import GameController from "./gamecontroller.js"
 
-const board = new Gameboard()
-console.log(board.getDimension())
+const gameController = new GameController()
+gameController.startGame()
