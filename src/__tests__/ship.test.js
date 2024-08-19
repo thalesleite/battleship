@@ -1,6 +1,6 @@
-import Ship from "./ship"
+import Ship from "../ship"
 
-describe("Ship class tests", () => {
+describe("Ship Class", () => {
   it("Check if the class is called", () => {
     const ship = new Ship(4)
     expect(ship).toBeInstanceOf(Ship)
@@ -17,10 +17,6 @@ describe("Ship class tests", () => {
     ship.hit()
     ship.hit()
     expect(ship.getHits()).toBe(3)
-
-    ship.hit()
-    ship.hit()
-    expect(ship.getHits()).toBe(5)
   })
 
   it("Check if the class returns whether it is sunk", () => {
